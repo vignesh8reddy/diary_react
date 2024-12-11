@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import '../src/components/NetflixIndexComponent.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import NetflixIndexComponent from './components/NetflixIndexComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <NetflixIndexComponent />
   </React.StrictMode>
 );
 

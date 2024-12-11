@@ -1,0 +1,14 @@
+.container-fluid {
+    background-image: url("US-en-20241209-TRIFECTA-perspective_4300bb32-ba32-4167-82a1-56f6ba3e30e6_large.jpg");
+    background-size: contain;
+    height: 100vmax;
+    color: white;
+}
+.box {
+    background-color: rgba(0,0,0,0.6);
+    height: 100vmax;
+    width: 100vmax;
+}
+section {
+    height: 400px;
+}
