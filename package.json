@@ -8,7 +8,7 @@
   "author": "",
   "license": "ISC",
   "keywords": [],
-  "description": "",
+  "description": "index.html\r ```html\r <html>\r     <head>\r         <title>Hello!</title>\r     </head>\r     <body>\r         <div id=\"root\">\r             <h1> Hello React! </h1>\r         </div>\r     </body>\r </html>\r ```\r Achieving same code in javascript:\r ```html\r <body>\r     <div id=\"root\">",
   "dependencies": {
     "@babel/standalone": "^7.26.4",
     "@testing-library/jest-dom": "^5.14.1",
@@ -19,5 +19,9 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "web-vitals": "^2.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
   }
 }
