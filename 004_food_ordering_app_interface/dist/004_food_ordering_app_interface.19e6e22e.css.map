@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;AAIA","sources":["004_food_ordering_app_interface/index.css"],"sourcesContent":[".header {\r\n    display: flex;\r\n}\r\n\r\n.logo {\r\n    width: 25px;\r\n}"],"names":[],"version":3,"file":"004_food_ordering_app_interface.19e6e22e.css.map","sourceRoot":"/__parcel_source_root/"}

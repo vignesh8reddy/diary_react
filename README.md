@@ -141,9 +141,42 @@ add type="module" attribute to the script tag so that js engine would recognize 
     * JSX also converted to HTML using createElement() by Babel
     * className in JSX and others different from HTML attributes
 * React Components
+    * Everything is a Component in React.
+    * Two types of React Components:
+        1. Functional Component (JS functions returning react elements i.e JSX code)
+        2. Class Based Component (Old Fashioned)
+```js
+const HelloComponent = () => {
+    return (<h1 id="hello">
+                Hello React!
+            </h1>);
+}
 
+//A component should start with an Upper case letter.
+//It is a good practice to start or end with Component word
 
+const HeaderComponent = () = {
+    return (
+        <div>
+            <h1 id="header">
+                Header Component
+            </h1>
+            <HelloComponent/>//Component Composition
+        </div>
+    );
+}
 
+//You can use {} to embed javascript code into JSX
+const name="Vignesh";
+const HeroComponent = () = {
+    return (
+        <h1 id="hero">
+            Hi, I'm {name}!
+        </h1>
+    );
+}
+//anything inside {} is not simply executed js engine sanitizes it if it is from outside.
+```
 
 
 
@@ -169,4 +202,12 @@ So basically this pausing of parsing tags is not good. Because javascript execut
     this way of writing script tag makes the parser to fetch the script code parallely (i.e aynchronously) while parsing happening, when it reaches the script tag, by the time script code would have been fetched by the browser, then parsing gets paused and script is executed, then parsing resumes
 <script defer src=""></script> 
 using defer keyword in the above way, makes the browser to fetch the script from the src while parsing is happening, and executes the script only when entire parsing has been done.
+
+
+
+destructuring a javascript object
+display attribute properties
+list-style-type properties
+cursor properties
+justify-content properties
 
